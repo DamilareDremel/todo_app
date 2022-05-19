@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import TodoInput from './components/TodoInput'
 import TodoList from './components/TodoList'
-import TodoItem from './components/TodoItem'
+
 
 export default class App extends Component {
   state = {
