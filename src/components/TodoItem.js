@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class extends Component {
+ class TodoItem extends Component {
   render() {
     const {title, handleDelete, handleEdit} = this.props;
     return (
@@ -16,6 +16,7 @@ export default class extends Component {
           </div>
 
       </li>
-    )
-  }
-}
+    );
+  };
+};
+export default TodoItem;
