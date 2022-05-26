@@ -82,7 +82,7 @@ export default class App extends Component {
                             handleEdit={this.handleEdit}
                              />
               </div>
-
+<div><h3><center>A PROJECT BY DAMILARE FAGBENRO T.</center></h3></div>
           </div>
       </div>
     )
